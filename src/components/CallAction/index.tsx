@@ -13,7 +13,7 @@ export const CallAction = () => {
 
   return (
     <section className="w-full h-[35rem] p-6 md:p-15 flex flex-col justify-center items-start
-      gap-4 md:gap-2 bg-cover bg-fixed bg-center bg-parallaxDescktop bg-no-repeat my-0 mx-auto" style={{ backgroundImage: `url(${ImageBg})` }} >
+      gap-4 md:gap-2 bg-cover bg-fixed bg-center bg-parallaxDescktop bg-no-repeat my-0 mx-auto overflow-hidden" style={{ backgroundImage: `url(${ImageBg})` }} >
       <div className='container flex flex-col items-center justify-start text-start' data-aos="fade-right" data-aos-duration="1000" >
         <div className='space-y-2'>
           <h1 className='text-white text-3xl md:text-5xl '>

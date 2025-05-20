@@ -26,7 +26,7 @@ export const SkilsSection = () => {
   }, [])
 
   return (
-    <section className="w-full h-auto bg-black flex items-center justify-center py-24 px-6 md:px-10">
+    <section className="w-full h-auto bg-black flex items-center justify-center py-24 px-6 md:px-10 overflow-hidden">
       <div className="w-full container xl:max-w-[80%] h-auto flex flex-col items-center justify-center gap-10 p-6 
         md:p-10 bg-neutral-950 shadow-2xl rounded-2xl border border-neutral-900 hover:border-neutral-700">
 

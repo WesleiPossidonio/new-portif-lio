@@ -45,7 +45,7 @@ export const Projects = () => {
         {
           stateButton?.state === 'All' ? ListServices.map(list => {
             return (
-              <div key={list.id} className="w-[18rem] lg:w-[23rem] h-[23rem] lg:h-[26rem] flex flex-col items-start gap-7 bg-black rounded-3xl p-4 md:p-7 border 
+              <div key={list.id} className="w-full lg:w-[23rem] h-[23rem] lg:h-[26rem] flex flex-col items-start gap-7 bg-black rounded-3xl p-4 md:p-7 border 
                border-black hover:border hover:border-neutral-800 transition ease-in-out duration-100" data-aos="zoom-in" data-aos-offset="300"
                 data-aos-easing="ease-in-sine">
                 <img className="w-full h-60 lg:h-[60%] md:h-4/6 rounded-2xl shadow-2xl" src={list.img} alt="" />

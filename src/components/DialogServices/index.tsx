@@ -34,7 +34,7 @@ export const DialogServices = ({ id }: DislogProps) => {
           }
         </div>
         <img className="w-[40rem] self-center rounded-2xl shadow-2xl" src={listSelected?.imgDialog} alt="" />
-        <a className="self-center text-xl font-semibold mt-3" href="http://" target="_blank" rel="noopener noreferrer">Acessar Agora!</a>
+        <a className="self-center text-xl font-semibold mt-3" href={listSelected?.linkPage} target="_blank" rel="noopener noreferrer">Acessar Agora!</a>
       </div>
 
 

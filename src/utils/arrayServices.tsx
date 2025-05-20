@@ -43,6 +43,7 @@ export interface ListProps {
     textOne: string
     textTwo?: string
   }
+  linkPage: string
 }
 
 
@@ -62,6 +63,7 @@ export const ListServices: ListProps[] = [
       textOne: 'A TH Soluções nasceu com o propósito de entregar qualidade, inovação e confiança em cada projeto. Com uma equipe experiente e comprometida, oferece soluções personalizadas que atendem às necessidades específicas de cada cliente.',
       textTwo: 'Com foco em resultados eficientes e parcerias duradouras, atua em diversos setores com profissionalismo e excelência. Projeto desenvolvido em Parceria coma a Cliard Tech'
     },
+    linkPage: 'https://th-solu-es-stti.vercel.app/',
     typeServices: 'Landing'
   },
 
@@ -69,7 +71,7 @@ export const ListServices: ListProps[] = [
     id: 2,
     imgDialog: ImageDialogDraEmely,
     img: ImageDraEmely,
-    name: 'Dra Emely Fontes',
+    name: 'Adv Emely Fontes',
     skils: {
       React: 'React Js',
       Node: 'Node Js',
@@ -81,6 +83,7 @@ export const ListServices: ListProps[] = [
       textOne: 'A Dra. Emely Fontes é advogada com mais de 12 anos de experiência, especializada em soluções jurídicas extrajudiciais ágeis e personalizadas.',
       textTwo: 'Reconhecida pela eficiência e integridade, atua com foco em simplificar processos legais e oferecer resultados práticos para pessoas e empresas, sempre com assertividade e empatia.'
     },
+    linkPage: 'https://emelyfontesadv.com.br/',
     typeServices: 'Landing'
   },
 
@@ -99,6 +102,7 @@ export const ListServices: ListProps[] = [
       textOne: 'A SMF Corretora de Seguros oferece uma ampla gama de seguros, consórcios, planos de saúde e soluções financeiras para todo o Brasil.',
       textTwo: 'Com uma equipe experiente e parcerias com as melhores instituições do país, garante segurança, confiabilidade e atendimento personalizado para cada cliente.'
     },
+    linkPage: 'https://smfcorretora.com.br/',
     typeServices: 'Constitucional'
   },
 
@@ -115,6 +119,7 @@ export const ListServices: ListProps[] = [
     text: {
       textOne: 'Escola de Musica Emam é uma instituição dedicada ao ensino de música, oferecendo cursos e aulas personalizadas para todos os níveis'
     },
+    linkPage: 'https://www.emam.com.br/',
     typeServices: 'Constitucional'
   },
 
@@ -132,6 +137,7 @@ export const ListServices: ListProps[] = [
       textOne: 'A Petro Tools Offshore / Tornocampos atua desde 2003 nos segmentos de Usinagem e Caldeiraria, com sede em Campos dos Goytacazes/RJ e filial em Macaé/RJ.',
       textTwo: 'Com equipe técnica altamente qualificada, oferece atendimento personalizado e soluções ágeis, focadas na eficiência e na busca constante pelas melhores alternativas para seus clientes. Projeto desenvolvido em Parceria coma a Cliard Tech',
     },
+    linkPage: 'https://tornocampos.com.br/',
     typeServices: 'Constitucional'
   },
 
@@ -149,6 +155,7 @@ export const ListServices: ListProps[] = [
     text: {
       textOne: 'Textttttt'
     },
+    linkPage: 'https://www.colegiocbo.com.br/site/',
     typeServices: 'Landing'
   },
 
@@ -165,6 +172,7 @@ export const ListServices: ListProps[] = [
     text: {
       textOne: 'Formada pela Estácio de Sá, com especialização em Terapia Cognitivo-Comportamental pela PUC/RS, e capacitação em Psico-Oncologia e Neurociência, oferece um suporte psicológico atualizado e focado no bem-estar emocional.'
     },
+    linkPage: 'https://landing-page-dra-jessica-braga.vercel.app/',
     typeServices: 'Landing'
   },
 
@@ -181,6 +189,7 @@ export const ListServices: ListProps[] = [
     text: {
       textOne: 'Projeto desenvolvido em Parceria coma a Cliard Tech'
     },
+    linkPage: 'https://gaspartransportes.com.br/',
     typeServices: 'Landing'
   },
 ]

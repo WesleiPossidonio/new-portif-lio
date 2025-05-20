@@ -7,41 +7,36 @@ import ImageBg from '@/assets/bgCallAction.jpg'
 const comentsArray = [
   {
     name: 'Rafael',
-    text: 'Ótima escolha para a regularização imobiliária da casa dos meus pais. Com conhecimento e experiência na área, ela garantiu um processo seguro e eficiente, trazendo mais tranquilidade e segurança.',
+    text: 'O Weslei conseguiu traduzir exatamente o que a gente queria para o site da nossa empresa. Sempre muito atencioso, explicou cada etapa com paciência e entregou tudo com muito capricho.',
     id: 1,
   },
-
   {
     name: 'Claudia',
-    text: 'Quando eu pensei que não tinha mais solução, eis que Dra. Emely com toda sua humanidade e eficiência conduziu o processo para um bom desfecho. Sem dúvidas que recomendo seus serviços.',
+    text: 'Eu não entendia nada de tecnologia e mesmo assim o Weslei fez tudo parecer simples. Ele ouviu nossas ideias, deu sugestões valiosas e entregou um site leve, bonito e fácil de usar.',
     id: 2,
   },
-
   {
     name: 'Otávio',
-    text: 'Ela foi impecável na negociação. Contratei para consultoria de compra e venda de imóvel. Fiquei muito seguro com todo trabalho e transparência.',
+    text: 'Trabalhar com o Weslei foi tranquilo do início ao fim. Sempre disponível, entregou o projeto no prazo e com uma qualidade impressionante. Dá pra ver que ele faz com paixão.',
     id: 3,
   },
-
   {
     name: 'Sheila',
-    text: 'Dra. Emely foi uma excelente escolha na consultoria trabalhista da minha empresa! Com visão estratégica, conseguimos alinhar segurança jurídica e crescimento sustentável da empresa.',
+    text: 'O site da nossa empresa precisava de uma cara nova, e o Weslei trouxe exatamente isso. Ele tem um olhar muito sensível para o design e uma organização que passa muita segurança.',
     id: 4,
   },
-
   {
     name: 'Luiz Paulo',
-    text: 'A demanda da minha empresa era complexa. Inicialmente demoramos para buscar profissional e quando recebemos a indicação da Dra. Emely, agendamos consulta jurídica. Do primeiro contato até a finalização da negociação a transparência em cada ato realizado nos garantia o comprometimento com a nossa questão e a segurança da transparência. Foi uma excelente experiência.',
+    text: 'Tínhamos uma ideia, mas não sabíamos como colocá-la no ar. O Weslei abraçou o projeto, pensou em cada detalhe e foi além do esperado. Foi mais que um serviço técnico, foi parceria.',
     id: 5,
   },
-
   {
     name: 'Larissa',
-    text: 'Dra. Emely com todo profissionalismo e humanidade desembolou uma demanda que estava “em aberto” por mais de dez anos. Não tenho palavras para agradecer a boa condução da negociação, a transparência e a segurança em cada etapa até a finalização do procedimento.',
+    text: 'O site da minha clínica estava parado há muito tempo. O Weslei ouviu minha história, entendeu o propósito do meu trabalho e criou algo que realmente representa quem eu sou. Gratidão define.',
     id: 6,
   },
+];
 
-]
 
 
 export const Coments = () => {
