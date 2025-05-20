@@ -57,7 +57,7 @@ export const Projects = () => {
                         <h1 className="text-neutral-300 font-bold text-xl md:text-2xl cursor-pointer">{list.name}</h1>
                       </DialogTrigger>
 
-                      <DialogContent className="min-w-[90%] bg-black border border-neutral-900 text-white">
+                      <DialogContent className="max-w-[90%] bg-black border border-neutral-900 text-white">
                         <DialogServices id={list.id} />
                       </DialogContent>
                     </Dialog>
