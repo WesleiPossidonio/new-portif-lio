@@ -1,6 +1,7 @@
-import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa6'
+import { FaDownload, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa6'
 import ImageBg from '../../assets/bgCallAction.jpg'
-import { Button } from '../ui/button'
+
+import Pdf from '@/assets/Curriculo-Weslei-França-Possidonio.pdf'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -33,11 +34,17 @@ export const CallAction = () => {
             </a>
           </div>
 
+          <div className='flex items-center justify-start gap-4'>
+            <a href='https://wa.me/5522981016605' target='_blank' rel='noreferrer' className='flex items-center justify-center gap-2 px-3 py-4 md:px-6 md:py-4 mt-6 bg-neutral-200 text-md md:text-lg text-black  rounded-2xl hover:bg-neutral-400 cursor-pointer'>
+              <FaWhatsapp className='size-6' />
+              Entre em Contato!
+            </a>
 
-          <Button className='flex items-center justify-center px-14 py-7 mt-6 bg-neutral-200 text-md md:text-lg text-black rounded-2xl hover:bg-neutral-400 cursor-pointer'>
-            <FaWhatsapp className='size-6' />
-            Entre em Contato!
-          </Button>
+            <a download={true} href={Pdf} className='flex items-center justify-center px-6 py-4 mt-6 bg-transparent border border-neutral-200 text-md md:text-lg text-white rounded-2xl hover:bg-neutral-300 hover:text-neutral-800 cursor-pointer'>
+              <FaDownload className='size-5' />
+              CV
+            </a>
+          </div>
         </div>
 
       </div>

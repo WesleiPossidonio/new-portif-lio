@@ -153,7 +153,8 @@ export const ListServices: ListProps[] = [
       PHP: 'PHP'
     },
     text: {
-      textOne: 'Textttttt'
+      textOne: 'A Escola CBO oferece excelência em educação da Educação Infantil ao Pré-Vestibular, com foco em resultados, inovação e formação humanizada.',
+      textTwo: 'Com um ambiente acolhedor, estrutura moderna e metodologia diferenciada, prepara os alunos para os desafios acadêmicos e profissionais, promovendo aprendizado de qualidade e conquistas nos vestibulares. Fiz parte do time de desenvolviemento do site junto com a empresa I3group.'
     },
     linkPage: 'https://www.colegiocbo.com.br/site/',
     typeServices: 'Landing'

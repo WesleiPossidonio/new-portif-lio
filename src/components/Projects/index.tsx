@@ -57,7 +57,7 @@ export const Projects = () => {
                         <h1 className="text-neutral-300 font-bold text-xl md:text-2xl cursor-pointer">{list.name}</h1>
                       </DialogTrigger>
 
-                      <DialogContent className="max-w-[90%] bg-black border border-neutral-900 text-white">
+                      <DialogContent className="w-full max-w-[90vw] md:max-w-[1100px] bg-black border border-neutral-900 text-white">
                         <DialogServices id={list.id} />
                       </DialogContent>
                     </Dialog>
@@ -67,18 +67,19 @@ export const Projects = () => {
             )
           }) : ListFiltered.map(list => {
             return (
-              <div key={list.id} className="w-[23rem] h-[26rem] flex flex-col items-start gap-7 bg-black rounded-3xl p-4 md:p-7 border 
-               border-black hover:border hover:border-neutral-800 transition ease-in-out duration-100">
-                <img className="w-full h-[50%] md:h-4/6 rounded-2xl shadow-2xl" src={list.img} alt="" />
-                <div className="w-full flex flex-col items-start justify-center gap-4">
-                  <div className=" w-full flex justify-between items-center gap-3">
+              <div key={list.id} className="w-full lg:w-[23rem] h-[23rem] lg:h-[26rem] flex flex-col items-start gap-7 bg-black rounded-3xl p-4 md:p-7 border 
+               border-black hover:border hover:border-neutral-800 transition ease-in-out duration-100" data-aos="zoom-in" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                <img className="w-full h-60 lg:h-[60%] md:h-4/6 rounded-2xl shadow-2xl" src={list.img} alt="" />
+                <div className="w-full flex flex-col items-start justify-center gap-4y">
+                  <div className=" w-full flex justify-start items-center gap-3">
                     <LinkIcon className="text-white" />
                     <Dialog>
                       <DialogTrigger asChild>
-                        <h1 className="text-neutral-300 font-bold text-xl md:text-2xl">{list.name}</h1>
+                        <h1 className="text-neutral-300 font-bold text-xl md:text-2xl cursor-pointer">{list.name}</h1>
                       </DialogTrigger>
 
-                      <DialogContent>
+                      <DialogContent className="max-w-[90%] bg-black border border-neutral-900 text-white">
                         <DialogServices id={list.id} />
                       </DialogContent>
                     </Dialog>

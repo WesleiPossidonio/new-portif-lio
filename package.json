@@ -10,12 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-dialog": "^1.1.13",
     "@radix-ui/react-slot": "^1.1.2",
     "@tailwindcss/vite": "^4.0.8",
     "@types/aos": "^3.0.7",
     "add": "^2.0.6",
     "aos": "^3.0.0-beta.6",
+    "axios": "^1.9.0",
     "carousel": "^0.0.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -28,12 +30,15 @@
     "npx": "^10.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-hook-form": "^7.56.4",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.5.3",
+    "react-toastify": "^11.0.5",
     "shadcn": "^2.4.0-canary.17",
     "tailwind-merge": "^3.0.2",
     "tailwindcss": "^4.0.8",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.25.30"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

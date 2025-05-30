@@ -15,6 +15,7 @@ export const About = () => {
 
   const headingChars = splitStringUsingRegex(headling)
   const textChars = splitStringUsingRegex(text)
+
   return (
     <section className="w-full h-auto min-h-[35rem] flex flex-col justify-center items-center md:flex-row md:justify-between bg-neutral-950 p-5">
       <div className="lg:w-[80%] xl:max-w-[70%] flex flex-col justify-center items-center gap-8" style={{ margin: '0 auto' }}>
@@ -29,10 +30,10 @@ export const About = () => {
             ))}
           </motion.p>
         </div>
-        <button className="w-auto p-3 md:p-4 flex items-center justify-center gap-2 border border-neutral-300  rounded-xl text-sm md:text-md md:text-lg font-semibold text-white hover:-translate-y-1 transform transition-all">
+        <a href="https://wa.me/5522981016605" target="_blank" rel='noreferrer' className="w-auto p-3 md:p-4 flex items-center justify-center gap-2 border border-neutral-300 hover:bg-white hover:text-black cursor-pointer rounded-xl text-sm md:text-md md:text-lg font-semibold text-white hover:-translate-y-1 transform transition-all">
           <FaWhatsapp size={25} />
           Entre em Contato!
-        </button>
+        </a>
       </div>
     </section>
   )

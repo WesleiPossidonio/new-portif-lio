@@ -11,7 +11,7 @@ export const DialogServices = ({ id }: DislogProps) => {
   const listSelected = ListServices.find(list => list.id === id)
 
   return (
-    <section className="h-auto max-h-76 lg:max-h-[50rem] md:p-8 space-y-10 flex flex-col overflow-y-auto">
+    <section className="w-full h-auto max-h-76 lg:max-h-[50rem] md:p-8 space-y-10 flex flex-col overflow-y-auto">
       <div>
         <h1 className="text-2xl md:text-4xl text-neutral-200">Desenvolvimento Web</h1>
         <p className="font-bold">_______</p>

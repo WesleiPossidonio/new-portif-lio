@@ -1,4 +1,4 @@
-import { About, CallAction, Coments, Companies, Contacts, Header, Hero, Projects, SkilsSection } from "./components"
+import { About, CallAction, Coments, Companies, Contacts, Header, Hero, Projects, SkilsSection, WhatsappButton } from "./components"
 import { Footer } from "./components/Footer"
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
       <SkilsSection />
       <Coments />
       <Contacts />
+      <WhatsappButton />
       <Footer />
     </main>
   )
